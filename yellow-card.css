@@ -43,7 +43,28 @@
 }
 
 
+.btn-learning:focus-visible{
+    box-shadow: 5px 5px 10px rgb(227, 4, 4) ;
+}
 
+.btn-learning:hover{
+    background-color :rgb(248, 251, 243);
+    border-top-right-radius: 10px;
+    transition: 0.03sec;
+}
+
+
+
+.foundation{
+    color:rgb(227, 198, 92);
+}
+
+.foundation:hover {
+    cursor: pointer;
+    color: rgb(176, 232, 86);
+    transition: 0.03sec;
+
+}
 .note-1{
     display: block;
     background-color: white;
